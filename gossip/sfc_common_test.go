@@ -77,7 +77,7 @@ type testEnv struct {
 }
 
 func newTestEnv() *testEnv {
-	vaccs := genesis.FakeValidators(genesisStakers, utils.ToFtm(genesisBalance), utils.ToFtm(genesisStake))
+	vaccs := genesis.FakeValidators(genesisStakers, utils.ToFren(genesisBalance), utils.ToFren(genesisStake))
 	cfg := &Config{
 		Net: lachesis.FakeNetConfig(vaccs),
 	}
