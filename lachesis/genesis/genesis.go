@@ -56,7 +56,7 @@ func MainGenesis() Genesis {
 		Time: genesisTime,
 		Alloc: VAccounts{
 			Accounts: Accounts{
-				common.HexToAddress("0xd6A37423Be930019b8CFeA57BE049329f3119a3D"): Account{Balance: utils.ToFren(2000000100)},
+				common.HexToAddress("0x0AeC2E426Ed6cc0cf3C249C1897eac47a7FAA9BD"): Account{Balance: utils.ToFren(2000000100)},
 				common.HexToAddress("0x541E408443A592C38e01Bed0cB31f9De8c1322d0"): Account{Balance: utils.ToFren(100)},
 				common.HexToAddress("0x35701189D211215Cb38393f407B4767886DeB03A"): Account{Balance: utils.ToFren(100)},
 				common.HexToAddress("0xEfC9200cD50ae935DA5d79D122660DDB53620E74"): Account{Balance: utils.ToFren(100)},
@@ -145,7 +145,7 @@ func TestGenesis() Genesis {
 		Time: genesisTime,
 		Alloc: VAccounts{
 			Accounts: Accounts{
-				common.HexToAddress("0xe003e080e8d61207a0a9890c3663b4cd7fb766b8"): Account{Balance: utils.ToFren(2000000100)},
+				common.HexToAddress("0x0AeC2E426Ed6cc0cf3C249C1897eac47a7FAA9BD"): Account{Balance: utils.ToFren(2000000100)},
 				common.HexToAddress("0xcc8b10332478e26f676bccfc73f8c687e3ad1d04"): Account{Balance: utils.ToFren(400)},
 				common.HexToAddress("0x30e3b5cc7e8fb98a22e688dfb20b327be8a9fe30"): Account{Balance: utils.ToFren(400)},
 				common.HexToAddress("0x567b6f3d4ba1f55652cf90df6db90ad6d8f9abc1"): Account{Balance: utils.ToFren(400)},
