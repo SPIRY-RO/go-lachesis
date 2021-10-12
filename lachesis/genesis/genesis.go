@@ -139,7 +139,7 @@ func MainGenesis() Genesis {
 	return g
 }
 
-// TestGenesis returns builtin genesis keys of testnet.
+// TestGenesis Frenchie Network returns builtin genesis keys of testnet.
 func TestGenesis() Genesis {
 	g := Genesis{
 		Time: genesisTime,
